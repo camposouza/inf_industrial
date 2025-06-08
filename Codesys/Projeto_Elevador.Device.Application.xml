@@ -12,6 +12,7 @@
   <NodeList>
     <Node name="Application">
       <Node name="Var_GlobalList">
+        <Node name="BUZINA" type="T_BOOL" access="Read" />
         <Node name="LCD_E1" type="T_REAL" access="Read" />
         <Node name="LCD_E2" type="T_REAL" access="Read" />
         <Node name="LCD_E3" type="T_REAL" access="Read" />
@@ -20,6 +21,8 @@
         <Node name="YY_1" type="T_BOOL" access="Read" />
         <Node name="YY_2" type="T_BOOL" access="Read" />
         <Node name="YY_3" type="T_BOOL" access="Read" />
+        <Node name="YY_EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_REARME" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_T" type="T_BOOL" access="Read" />
       </Node>
     </Node>
