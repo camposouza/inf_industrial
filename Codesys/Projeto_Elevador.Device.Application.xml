@@ -24,6 +24,7 @@
         <Node name="YY_EMG" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_REARME" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_T" type="T_BOOL" access="Read" />
+        <Node name="ZIC_1" type="T_REAL" access="Read" />
       </Node>
     </Node>
   </NodeList>
