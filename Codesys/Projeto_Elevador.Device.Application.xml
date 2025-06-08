@@ -21,7 +21,15 @@
         <Node name="YY_1" type="T_BOOL" access="Read" />
         <Node name="YY_2" type="T_BOOL" access="Read" />
         <Node name="YY_3" type="T_BOOL" access="Read" />
+        <Node name="YY_EB1" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_EB2" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_EB3" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_EBT" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_IB1" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_IB2" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_IB3" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_IBT" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_REARME" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_T" type="T_BOOL" access="Read" />
         <Node name="ZIC_1" type="T_REAL" access="Read" />
