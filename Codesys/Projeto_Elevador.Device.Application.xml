@@ -18,6 +18,8 @@
         <Node name="LCD_E3" type="T_REAL" access="Read" />
         <Node name="LCD_I" type="T_REAL" access="Read" />
         <Node name="LCD_T" type="T_REAL" access="Read" />
+        <Node name="M_ABRE_PORTA" type="T_BOOL" access="ReadWrite" />
+        <Node name="M_FECHA_PORTA" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_1" type="T_BOOL" access="Read" />
         <Node name="YY_2" type="T_BOOL" access="Read" />
         <Node name="YY_3" type="T_BOOL" access="Read" />
@@ -26,10 +28,14 @@
         <Node name="YY_EB3" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_EBT" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_ENT_SAI" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_ESMAG" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IB1" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IB2" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IB3" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IBT" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_P_ABERTA" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_P_FECHADA" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_REARME" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_T" type="T_BOOL" access="Read" />
         <Node name="ZIC_1" type="T_REAL" access="Read" />
