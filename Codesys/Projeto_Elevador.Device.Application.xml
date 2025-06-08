@@ -7,6 +7,7 @@
   </Header>
   <TypeList>
     <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
     <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
   </TypeList>
   <NodeList>
@@ -18,15 +19,20 @@
         <Node name="LCD_E3" type="T_REAL" access="Read" />
         <Node name="LCD_I" type="T_REAL" access="Read" />
         <Node name="LCD_T" type="T_REAL" access="Read" />
-        <Node name="M_ABRE_PORTA" type="T_BOOL" access="ReadWrite" />
-        <Node name="M_FECHA_PORTA" type="T_BOOL" access="ReadWrite" />
+        <Node name="LD_PESO" type="T_BOOL" access="Read" />
+        <Node name="M_ABRE_PORTA" type="T_BOOL" access="Read" />
+        <Node name="M_DESCE" type="T_BOOL" access="Read" />
+        <Node name="M_FECHA_PORTA" type="T_BOOL" access="Read" />
+        <Node name="M_SOBE" type="T_BOOL" access="Read" />
+        <Node name="VEL_MOTOR" type="T_REAL" access="Read" />
+        <Node name="WIC_1" type="T_INT" access="ReadWrite" />
         <Node name="YY_1" type="T_BOOL" access="Read" />
         <Node name="YY_2" type="T_BOOL" access="Read" />
         <Node name="YY_3" type="T_BOOL" access="Read" />
         <Node name="YY_EB1" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_EB2" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_EB3" type="T_BOOL" access="ReadWrite" />
-        <Node name="YY_EBT" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_EBT" type="T_BOOL" access="Read" />
         <Node name="YY_EMG" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_ENT_SAI" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_ESMAG" type="T_BOOL" access="ReadWrite" />
@@ -34,8 +40,8 @@
         <Node name="YY_IB2" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IB3" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_IBT" type="T_BOOL" access="ReadWrite" />
-        <Node name="YY_P_ABERTA" type="T_BOOL" access="ReadWrite" />
-        <Node name="YY_P_FECHADA" type="T_BOOL" access="ReadWrite" />
+        <Node name="YY_P_ABERTA" type="T_BOOL" access="Read" />
+        <Node name="YY_P_FECHADA" type="T_BOOL" access="Read" />
         <Node name="YY_REARME" type="T_BOOL" access="ReadWrite" />
         <Node name="YY_T" type="T_BOOL" access="Read" />
         <Node name="ZIC_1" type="T_REAL" access="Read" />
