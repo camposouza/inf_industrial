@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.11.10" runtimeid="3.5.11.40" libversion="3.5.11.0" compiler="3.5.11.40" lmm="3.5.11.40" profile="CODESYS V3.5 SP11 Patch 4+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Projeto_Elevador" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="Var_GlobalList">
+        <Node name="LCD_E1" type="T_REAL" access="Read" />
+        <Node name="LCD_E2" type="T_REAL" access="Read" />
+        <Node name="LCD_E3" type="T_REAL" access="Read" />
+        <Node name="LCD_I" type="T_REAL" access="Read" />
+        <Node name="LCD_T" type="T_REAL" access="Read" />
+        <Node name="YY_1" type="T_BOOL" access="Read" />
+        <Node name="YY_2" type="T_BOOL" access="Read" />
+        <Node name="YY_3" type="T_BOOL" access="Read" />
+        <Node name="YY_T" type="T_BOOL" access="Read" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
