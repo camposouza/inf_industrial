@@ -19,6 +19,14 @@
         <Node name="LCD_E3" type="T_REAL" access="Read" />
         <Node name="LCD_I" type="T_REAL" access="Read" />
         <Node name="LCD_T" type="T_REAL" access="Read" />
+        <Node name="LD_E1" type="T_BOOL" access="Read" />
+        <Node name="LD_E2" type="T_BOOL" access="Read" />
+        <Node name="LD_E3" type="T_BOOL" access="Read" />
+        <Node name="LD_ET" type="T_BOOL" access="Read" />
+        <Node name="LD_I1" type="T_BOOL" access="Read" />
+        <Node name="LD_I2" type="T_BOOL" access="Read" />
+        <Node name="LD_I3" type="T_BOOL" access="Read" />
+        <Node name="LD_IT" type="T_BOOL" access="Read" />
         <Node name="LD_PESO" type="T_BOOL" access="Read" />
         <Node name="M_ABRE_PORTA" type="T_BOOL" access="Read" />
         <Node name="M_DESCE" type="T_BOOL" access="Read" />
